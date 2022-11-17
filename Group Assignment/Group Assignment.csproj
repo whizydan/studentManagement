@@ -13,6 +13,11 @@
     <Copyright>Licensed under the apache v2 license</Copyright>
     <PackageProjectUrl>https://kerberos.co.ke</PackageProjectUrl>
     <PackageIcon>desktop_computer_student_online_graduate_distance_cap_icon_149700.png</PackageIcon>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>B:\Desktop\IOOP Group Assignment\Group Assignment\API Documentaion\documentation.xml</DocumentationFile>
+    <Product>Student Management</Product>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>c#,forms,sql server mdf</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,7 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="C:\Users\kerberos\Downloads\desktop_computer_student_online_graduate_distance_cap_icon_149700.png">
+    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
@@ -49,6 +54,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="desktop_computer_student_online_graduate_distance_cap_icon_149700.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
