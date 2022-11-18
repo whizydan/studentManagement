@@ -30,14 +30,18 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button10 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.studentsList2 = new System.Windows.Forms.DataGridView();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.button11 = new System.Windows.Forms.Button();
             this.transactions = new System.Windows.Forms.DataGridView();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -53,7 +57,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.studentsList2)).BeginInit();
@@ -78,6 +81,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.button10);
             this.tabPage3.Controls.Add(this.button2);
             this.tabPage3.Controls.Add(this.button1);
             this.tabPage3.Controls.Add(this.studentsList2);
@@ -87,7 +91,16 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Manage students";
             this.tabPage3.UseVisualStyleBackColor = true;
-            this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(493, 15);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(149, 23);
+            this.button10.TabIndex = 3;
+            this.button10.Text = "Refresh";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button2
             // 
@@ -126,6 +139,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.button11);
             this.tabPage4.Controls.Add(this.transactions);
             this.tabPage4.Controls.Add(this.textBox1);
             this.tabPage4.Controls.Add(this.button3);
@@ -135,6 +149,16 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Payment";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(560, 18);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(96, 23);
+            this.button11.TabIndex = 3;
+            this.button11.Text = "Refresh";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // transactions
             // 
@@ -163,13 +187,14 @@
             // 
             this.button3.Location = new System.Drawing.Point(332, 18);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(324, 23);
+            this.button3.Size = new System.Drawing.Size(179, 23);
             this.button3.TabIndex = 0;
             this.button3.Text = "Process payment";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.button12);
             this.tabPage2.Controls.Add(this.button9);
             this.tabPage2.Controls.Add(this.button8);
             this.tabPage2.Controls.Add(this.button7);
@@ -184,6 +209,25 @@
             this.tabPage2.Text = "Requests";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(276, 44);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(121, 23);
+            this.button12.TabIndex = 6;
+            this.button12.Text = "Refresh";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(11, 46);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(259, 23);
+            this.button9.TabIndex = 5;
+            this.button9.Text = "Edit enrollment";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
             // button8
             // 
             this.button8.Location = new System.Drawing.Point(146, 15);
@@ -192,6 +236,7 @@
             this.button8.TabIndex = 4;
             this.button8.Text = "Mark one complete";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -201,6 +246,7 @@
             this.button7.TabIndex = 3;
             this.button7.Text = "Mark all complete";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -210,6 +256,7 @@
             this.button6.TabIndex = 2;
             this.button6.Text = "Delete Completed";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -220,6 +267,7 @@
             this.button5.TabIndex = 1;
             this.button5.Text = "Delete all";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // requestList
             // 
@@ -302,6 +350,7 @@
             this.button4.TabIndex = 4;
             this.button4.Text = "Update profile";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label4
             // 
@@ -338,15 +387,6 @@
             this.label1.Size = new System.Drawing.Size(69, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Username : ";
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(11, 46);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(259, 23);
-            this.button9.TabIndex = 5;
-            this.button9.Text = "Edit enrollment";
-            this.button9.UseVisualStyleBackColor = true;
             // 
             // Receptionist
             // 
@@ -400,5 +440,8 @@
         private Button button5;
         private DataGridView requestList;
         private Button button9;
+        private Button button10;
+        private Button button11;
+        private Button button12;
     }
 }

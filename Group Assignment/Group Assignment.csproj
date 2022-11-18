@@ -57,6 +57,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="App.config">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
     <None Update="desktop_computer_student_online_graduate_distance_cap_icon_149700.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>

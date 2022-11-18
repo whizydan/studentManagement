@@ -34,10 +34,8 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -98,14 +96,6 @@
             this.comboBox1.Size = new System.Drawing.Size(212, 23);
             this.comboBox1.TabIndex = 6;
             // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(460, 41);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(212, 23);
-            this.comboBox2.TabIndex = 7;
-            // 
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
@@ -122,7 +112,7 @@
             "10",
             "11",
             "12"});
-            this.comboBox3.Location = new System.Drawing.Point(460, 76);
+            this.comboBox3.Location = new System.Drawing.Point(460, 53);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(212, 23);
             this.comboBox3.TabIndex = 8;
@@ -136,19 +126,10 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Level";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(378, 49);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 15);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Subject";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(378, 84);
+            this.label3.Location = new System.Drawing.Point(378, 61);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 15);
             this.label3.TabIndex = 11;
@@ -162,6 +143,7 @@
             this.button1.TabIndex = 12;
             this.button1.Text = "Add Student";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox6
             // 
@@ -190,10 +172,8 @@
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -215,10 +195,8 @@
         private TextBox textBox4;
         private TextBox textBox5;
         private ComboBox comboBox1;
-        private ComboBox comboBox2;
         private ComboBox comboBox3;
         private Label label1;
-        private Label label2;
         private Label label3;
         private Button button1;
         private TextBox textBox6;
