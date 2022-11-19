@@ -241,5 +241,19 @@ namespace Group_Assignment
         {
             updateView();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var username = textBox1.Text;
+            Payments payment = new Payments(username);
+            payment.ShowDialog();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            //show student subjects and allow editing
+            Enrollment subjectAllocation = new Enrollment();
+            subjectAllocation.ShowDialog();
+        }
     }
 }

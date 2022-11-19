@@ -179,7 +179,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(17, 18);
             this.textBox1.Name = "textBox1";
-            this.textBox1.PlaceholderText = "Transaction code";
+            this.textBox1.PlaceholderText = "Student username";
             this.textBox1.Size = new System.Drawing.Size(295, 23);
             this.textBox1.TabIndex = 1;
             // 
@@ -191,6 +191,7 @@
             this.button3.TabIndex = 0;
             this.button3.Text = "Process payment";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // tabPage2
             // 
@@ -227,6 +228,7 @@
             this.button9.TabIndex = 5;
             this.button9.Text = "Edit enrollment";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button8
             // 

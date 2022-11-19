@@ -55,6 +55,23 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="F:Group_Assignment.AssignSubject.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Group_Assignment.AssignSubject.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Group_Assignment.AssignSubject.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="F:Group_Assignment.frmClassInfo.components">
             <summary>
             Required designer variable.
@@ -106,6 +123,23 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="F:Group_Assignment.Enrollment.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Group_Assignment.Enrollment.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Group_Assignment.Enrollment.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="F:Group_Assignment.Login.components">
             <summary>
             Required designer variable.
@@ -118,6 +152,23 @@
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
         <member name="M:Group_Assignment.Login.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Group_Assignment.Payments.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Group_Assignment.Payments.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Group_Assignment.Payments.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
@@ -173,6 +224,23 @@
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
         <member name="M:Group_Assignment.Receptionist.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Group_Assignment.RemoveSubject.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Group_Assignment.RemoveSubject.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Group_Assignment.RemoveSubject.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
