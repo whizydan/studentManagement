@@ -1,0 +1,28 @@
+[Time:] [2025-02-10 08:39:08] [Event:] Beggining of Main [lOG:]-->Application Started
+[Time:] [2025-02-10 08:39:32] [Event:] Beggining of Main [lOG:]-->Application Started
+[Time:] [2025-02-10 08:39:36] [Event:] Configuration [lOG:]-->Updated user
+[Time:] [2025-02-10 08:39:36] [Event:] Configuration [lOG:]-->Updated password
+[Time:] [2025-02-10 08:39:37] [Event:] Configuration [lOG:]-->Updated server
+[Time:] [2025-02-10 08:39:38] [Event:] Configuration [lOG:]-->Updated remMe
+[Time:] [2025-02-10 08:39:39] [Event:] Configuration [lOG:]-->Updated state
+[Time:] [2025-02-10 08:39:39] [Event:] Database [lOG:]-->Start connection
+[Time:] [2025-02-10 08:39:39] [Event:] Database [lOG:]-->Error connecting; MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host '' for user 'Mbivu Tech' using method 'mysql_native_password' failed with message: Access denied for user 'Mbivu Tech'@'localhost' (using password: NO) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'Mbivu Tech'@'localhost' (using password: NO)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at UIKitTutorials.Pages.Login.Login1_Click(Object sender, RoutedEventArgs e) in B:\Desktop\Student Management System\Pages\Login.xaml.cs:line 93
+[Time:] [2025-02-10 08:39:42] [Event:] Database [lOG:]-->Failed to connect with MySQL check to see if mysql is running
+[Time:] [2025-02-10 08:39:44] [Event:] Beggining of Main [lOG:]-->Application Started
+[Time:] [2025-02-10 08:39:54] [Event:] View [lOG:]-->Opened Settings
+[Time:] [2025-02-10 08:40:02] [Event:] End [lOG:]-->Exiting

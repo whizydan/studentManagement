@@ -1,0 +1,16 @@
+B:\Desktop\Student Management System\bin\Debug\SQL sever repair.exe.config
+B:\Desktop\Student Management System\bin\Debug\SQL sever repair.exe
+B:\Desktop\Student Management System\bin\Debug\SQL sever repair.pdb
+B:\Desktop\Student Management System\SQL sever repair\obj\Debug\SQL sever repair.csproj.AssemblyReference.cache
+B:\Desktop\Student Management System\SQL sever repair\obj\Debug\SQL sever repair.csproj.SuggestedBindingRedirects.cache
+B:\Desktop\Student Management System\SQL sever repair\obj\Debug\MainWindow.g.cs
+B:\Desktop\Student Management System\SQL sever repair\obj\Debug\App.g.cs
+B:\Desktop\Student Management System\SQL sever repair\obj\Debug\SQL sever repair_MarkupCompile.cache
+B:\Desktop\Student Management System\SQL sever repair\obj\Debug\SQL sever repair_MarkupCompile.lref
+B:\Desktop\Student Management System\SQL sever repair\obj\Debug\MainWindow.baml
+B:\Desktop\Student Management System\SQL sever repair\obj\Debug\SQL sever repair.g.resources
+B:\Desktop\Student Management System\SQL sever repair\obj\Debug\SQL_sever_repair.Properties.Resources.resources
+B:\Desktop\Student Management System\SQL sever repair\obj\Debug\SQL sever repair.csproj.GenerateResource.cache
+B:\Desktop\Student Management System\SQL sever repair\obj\Debug\SQL sever repair.csproj.CoreCompileInputs.cache
+B:\Desktop\Student Management System\SQL sever repair\obj\Debug\SQL sever repair.exe
+B:\Desktop\Student Management System\SQL sever repair\obj\Debug\SQL sever repair.pdb
