@@ -1,0 +1,33 @@
+﻿<Window x:Class="UIKitTutorials.Pages.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UIKitTutorials.Pages"
+        mc:Ignorable="d"
+        WindowStyle="ToolWindow"
+        Title="Login" Height="450" Width="800" Closing="Window_Closing">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="797*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Left" Height="250" Margin="10,10,0,0" VerticalAlignment="Top" Width="261" Source="/img/1.png" Stretch="Uniform"/>
+        <Image HorizontalAlignment="Left" Height="270" Margin="237,154,0,0" VerticalAlignment="Top" Width="294" Source="/img/2.png"/>
+        <TextBox HorizontalAlignment="Left"  Name="Username" Margin="652,58,0,0" TextWrapping="NoWrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Name="Userpassword" Margin="652,102,0,0" TextWrapping="NoWrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="570,54,0,0" VerticalAlignment="Top" Width="77"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="570,98,0,0" VerticalAlignment="Top" Width="77"/>
+        <Label Content="Please Log In" FontWeight="Black" FontSize="18" HorizontalAlignment="Left" Margin="608,10,0,0" VerticalAlignment="Top" Width="164"/>
+        <Button x:Name="Login1" Content="LOGIN" HorizontalAlignment="Left" Margin="712,373,0,0" VerticalAlignment="Top" Height="23" Width="60" Click="Login1_Click"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="570,373,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+        <Expander Name="sqlsettings" HorizontalAlignment="Left" Height="167" Header="MySQL Settings"  Margin="512,201,0,0" VerticalAlignment="Top" Width="275" Foreground="#FF001BFF">
+            <Grid Background="#FFE5E5E5">
+                <TextBox HorizontalAlignment="Left" Name="sqlserver" TextWrapping="NoWrap"  VerticalAlignment="Top" Width="120" Margin="143,10,0,0"/>
+                <Label Content="Server" FontSize="14" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="91" Height="26" Margin="0,6,0,0" />
+                <CheckBox  Name="checkbox" Content="Remember Settings" Margin="10,114,136,10" IsChecked="False"/>
+            </Grid>
+        </Expander>
+    </Grid>
+</Window>
